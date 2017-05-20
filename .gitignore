@@ -1,0 +1,8 @@
+*~
+*.swp
+*.py[co]
+*.egg-info
+update-center.json
+jenkins*.war
+*.hpi
+
