@@ -24,4 +24,14 @@ setup(
             'jenreflect = jenreflect.mirror:main',
         ],
     },
+    classifiers=[
+        "Development Status :: 5 - Production/Stable",
+        "Environment :: Console",
+        "Intended Audience :: Developers",
+        "Intended Audience :: Information Technology",
+        "Intended Audience :: System Administrators",
+        "License :: Public Domain",
+        "Programming Language :: Python :: 3",
+        "Topic :: System :: Archiving :: Mirroring",
+    ],
 )
