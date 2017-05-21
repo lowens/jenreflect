@@ -103,7 +103,7 @@ def main(arguments=None):
     logger.debug("Plugin count={}".format(plugin_count))
     for i, plugin in enumerate(update_center_info["plugins"]):
         plugin_info = update_center_info["plugins"][plugin]
-        logger.info("Plugin {} of {}: {}".format(i, plugin_count, plugin))
+        logger.info("Plugin {} of {}: {}".format(i + 1, plugin_count, plugin))
         outfile = os.path.join(
                 args.path,
                 plugin,
